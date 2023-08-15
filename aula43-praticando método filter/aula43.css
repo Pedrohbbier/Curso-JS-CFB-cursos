@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa{
+    height: 550px;
+    width: 400px;
+    margin: 10px;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5%;
+}
+
+#amostra{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.btnCaixa1{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btnCaixa1:hover{
+    cursor: pointer;
+}
+
+.caixas{
+    background-color: white;
+    height: 40px;
+    width: 200px;
+}
+
+.textBox{
+    background-color: lightgrey;
+    border-color: darkgray;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 4px;
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnBox{
+    margin-left: 10px;
+}
